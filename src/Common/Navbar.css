@@ -1,0 +1,24 @@
+.nav-img {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-nav{
+    height: 8vh;
+    width: 5vw;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    text-align: center;
+    padding-top: 2vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.2vw;
+    font-size: 5vh;
+    background: grey;
+    height: 8vh;
+    color: whitesmoke;
+}

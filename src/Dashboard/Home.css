@@ -1,0 +1,53 @@
+/* Container for the main contents */
+.main-contents {
+    border: 1px solid grey;
+    margin: 1vh 2vw;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out; /* Smooth transition */
+    overflow: hidden; /* Prevent content overflow */
+    max-height: 12vh; /* Initial height (adjust as needed) */
+    padding: 1vh; /* Initial padding */
+  }
+  
+  .main-contents.expanded {
+    max-height: 50vh; /* Expanded height (adjust as needed) */
+    padding: 2vh 1vh; /* Additional padding when expanded */
+  }
+  
+  /* Container for the top content */
+  .top-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Styles for the edit/add link */
+  .edit-add {
+    cursor: pointer;
+    color: rgba(116, 110, 103, 0.8);
+    text-decoration: underline;
+    font-size: 3vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* Header for the contents */
+  .contents-head {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.75vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10vh 2vw;
+    border: 1px solid grey;
+  }
+  
+  .contents-head span {
+    border-right: 1px solid gray;
+    padding: 1vh 1vw;
+    padding-right: 8vw;
+  }
+  
+  /* Container for the expanded content */
+  .expanded-content {
+    width: 100%;
+    padding-top: 1vh;
+  }
+  

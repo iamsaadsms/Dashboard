@@ -1,0 +1,70 @@
+/* Dropdown.css */
+.custom {
+    background-color: rgba(36, 35, 34, 0.9);
+    color: rgb(255, 255, 255);
+    border-radius: 0;
+    height: 7vh;
+    width: 15vw;
+    font-size: 2.25vh;
+    border: 1px solid rgba(116, 110, 103, 0.1);
+    padding: 1vh;
+    text-align: left;
+    padding-left: 2vw;
+    padding-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+  }
+
+  .label-head{
+    margin-bottom: 1vh;
+  }
+  
+  .custom:hover {
+    background-color: rgba(143, 138, 130, 0.8);
+  }
+  
+  .down {
+    padding-right: 5vw;
+    font-size: 3vh;
+    color: rgb(255, 255, 255, 0.5);
+  }
+  
+  .custom-select {
+    text-align: left;
+    margin-top: 2vh;
+    cursor: pointer;
+  }
+  
+  .dropdown-item {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: #010101d9;
+    color: rgb(255, 255, 255);
+    height: 6vh; /* Adjust height to fit content */
+    width: 15vw;
+    font-size: 2.75vh;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1vh 2vw; /* Use padding instead of margin */
+    
+  }
+  
+  .dropdown-item:hover {
+    background-color: rgba(143, 138, 130);
+  }
+  
+  .checkbox {
+    margin-right: 1vw;
+    color: rgba(143, 138, 130, 0.1);
+    background: #010101d9;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    max-height: 30vh; /* Set a fixed height */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
